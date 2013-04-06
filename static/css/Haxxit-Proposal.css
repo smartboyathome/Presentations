@@ -22,18 +22,44 @@
 
 }
 
-html.title .reveal .slides h1
+.center-div {
+    width: 100%; /* Firefox needs this */
+
+    height: 100%; /* Height can be anything */
+
+    /* WebKit (Chrome & Safari) */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    /* IE */
+    display: -ms-box;
+    -ms-box-pack: center;
+    -ms-box-align: center;
+
+    /* Native CSS */
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+
+html .reveal .slides h1.title
 {
     font-family: Digital-7;
     font-size: 4em;
 }
 
-html.title h1 .slow, html.title h1 .normal
+html .reveal .slides h1.title .slow, html .reveal .slides h1.title .normal
 {
     opacity: 0;
 }
 
-html.title h2, html.title h3, .reveal .slides h1
+html h2.title, html h3.title, .reveal .slides h1
 {
     font-family: "Mode Seven";
 }
@@ -43,12 +69,12 @@ html.title h2, html.title h3, .reveal .slides h1
     font-size: 2em;
 }
 
-html.title h2
+html h2.title
 {
     font-size: 1.5em;
 }
 
-html.title h3
+html h3.title
 {
     font-size: 1em;
 }
