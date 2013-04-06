@@ -22,11 +22,6 @@
 
 }
 
-@font-face {
-    font-family: Ubuntu;
-    src: url(/static/fonts/Ubuntu.ttf);
-}
-
 html.title .reveal .slides h1
 {
     font-family: Digital-7;
@@ -56,4 +51,9 @@ html.title h2
 html.title h3
 {
     font-size: 1em;
+}
+
+.reveal .slides ul li, .reveal .slides p
+{
+    font-family: Ubuntu;
 }
