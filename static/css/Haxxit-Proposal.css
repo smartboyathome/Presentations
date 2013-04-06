@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('/static/fonts/Digital-7/Digital-7.eot');
+    src: url('/static/fonts/Digital-7/Digital-7.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/Digital-7/Digital-7.ttf') format('truetype'),
+    url('/static/fonts/Digital-7/Digital-7.woff') format('woff'),
+    url('/static/fonts/Digital-7/Digital-7.svg#digital-7regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Mode Seven';
+    src: url('/static/fonts/ModeSeven/ModeSeven.eot');
+    src: url('/static/fonts/ModeSeven/ModeSeven.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/ModeSeven/ModeSeven.ttf') format('truetype'),
+    url('/static/fonts/ModeSeven/ModeSeven.woff') format('woff'),
+    url('/static/fonts/ModeSeven/ModeSeven.svg#modesevenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(/static/fonts/Ubuntu.ttf);
+}
+
+html.title .reveal .slides h1
+{
+    font-family: Digital-7;
+    font-size: 4em;
+}
+
+html.title h1 .slow, html.title h1 .normal
+{
+    opacity: 0;
+}
+
+html.title h2, html.title h3, .reveal .slides h1
+{
+    font-family: "Mode Seven";
+}
+
+.reveal .slides h1
+{
+    font-size: 2em;
+}
+
+html.title h2
+{
+    font-size: 1.5em;
+}
+
+html.title h3
+{
+    font-size: 1em;
+}

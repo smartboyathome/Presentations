@@ -1,0 +1,43 @@
+{% extends "presentation-base.jinja2" %}
+
+{% block title %}
+Haxxit - A Turn-Based Strategy Game
+{% endblock %}
+
+{% block author %}
+Alexander 'smartboyathome' Abbott
+{% endblock %}
+
+{% block description %}
+Haxxit is a turn-based strategy loosely based around hacking.
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Haxxit-Proposal.css') }}">
+    <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery-ui.js') }}"></script>
+{% endblock %}
+
+{% block scripts %}
+    <script src="{{ url_for('static', filename='js/Haxxit-Proposal.js') }}"></script>
+{% endblock %}
+
+{% block slides %}
+
+    <section data-state="title">
+        <h1><span class="normal">H</span><span class="slow">a</span><span class="normal">xx<span class="delayed">i</span>t</span></h1>
+        <h2>A Turn-Based Strategy Game</h2>
+        <h3>Alexander Abbott</h3>
+    </section>
+
+    <section>
+        <h1>Background</h1>
+        <ul>
+            <li>As a kid, I used to play Lego minigames</li>
+            <li>One game that I remember well is Spybot: The Nightfall Incident</li>
+            <li>Created in Macromedia Shockwave, it was never updated since it was made</li>
+            <li>Only exists on archive sites now, in the same state as when it was released</li>
+        </ul>
+    </section>
+
+{% endblock %}
