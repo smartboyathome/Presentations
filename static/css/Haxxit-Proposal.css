@@ -82,4 +82,5 @@ html h3.title
 .reveal .slides ul li, .reveal .slides p
 {
     font-family: Ubuntu;
+    text-align: left;
 }
