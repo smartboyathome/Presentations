@@ -17,6 +17,7 @@ Haxxit is a turn-based strategy loosely based around hacking.
     <link rel="stylesheet" href="{{ url_for('static', filename='css/Haxxit-Proposal.css') }}">
     <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
     <script src="{{ url_for('static', filename='js/jquery-ui.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/crafty.js') }}"></script>
 {% endblock %}
 
 {% block scripts %}
@@ -73,6 +74,13 @@ Haxxit is a turn-based strategy loosely based around hacking.
             <li>New maps and programs</li>
         </ul>
         <p>Why tell you this, though, when I can show you?</p>
+    </section>
+
+    <section>
+        <h1>Let's Play a Game</h1>
+        <div class="center-div">
+            <div id="haxxit"></div>
+        </div>
     </section>
 
 {% endblock %}
